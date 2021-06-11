@@ -12,8 +12,9 @@
 }
 
 .thumbnail-image{
+    max-width: 100px;
     img{
-        width: 100px;
+        width: 100%;
         border-radius: 20px;
     }
 
@@ -101,5 +102,38 @@
 
     p{
         margin: 0;
+    }
+
+    p:first-child{
+        font-size: 1rem;
+        text-decoration: line-through;
+    }
+
+    p:last-child{
+        font-size: 1.5rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    button{
+        margin-left: 2.5em;
+        text-transform: uppercase;
+        padding: 0.75em 2.0625em;
+        border-radius: 10px;
+        img{
+            margin-right: 1em;
+        }
+    }
+}
+
+// Product Detail - Media Queries
+
+@media only screen and (max-width: 990px){
+    .product-detail{
+        margin-top: 3.5em !important;
+    }
+
+    .detail-left-pad{
+        padding-left: 1em;
     }
 }
