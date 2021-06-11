@@ -1,0 +1,35 @@
+header{
+    font-family: 'Poppins';
+
+    .navbar-light{
+        .navbar-brand{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #72746E;
+    
+            span{
+                color: $secondary-logo-color;
+            }
+        }
+
+        .navbar-collapse{
+            justify-content: flex-end;
+
+            .navbar-nav{
+                margin-right: 2.6875em;
+                
+                .nav-item{
+                    .downArrow{
+                        padding-left: 0.8185em;
+                        padding-right: 1.3125em;
+                    }
+
+                    .nav-sale{
+                        color: $sale-font-color;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
