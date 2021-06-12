@@ -1,5 +1,6 @@
 header{
     font-family: 'Poppins';
+    background: white;
 
     .navbar-light{
         padding: 1.8125em 0;
@@ -30,6 +31,12 @@ header{
                         font-weight: 700;
                     }
                 }
+            }
+        }
+
+        .menu-width{
+            .navbar-toggler{
+                margin-right: 1em;
             }
         }
     }
