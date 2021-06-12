@@ -1,0 +1,41 @@
+// Header - Navbar Styling
+
+header{
+    font-family: 'Poppins';
+    background: white;
+
+    .navbar-light{
+        padding: 1.8125em 0;
+        .navbar-brand{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #72746E;
+    
+            span{
+                color: $secondary-logo-color;
+            }
+        }
+
+        .navbar-collapse{
+            justify-content: flex-end;
+
+            .navbar-nav{
+                margin-right: 2.6875em;
+                
+                .nav-item{
+                    .downArrow{
+                        padding-left: 0.8185em;
+                        padding-right: 1.3125em;
+                    }
+
+                    .nav-sale{
+                        color: $sale-font-color;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Media Queries

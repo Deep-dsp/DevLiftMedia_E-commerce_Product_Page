@@ -1,0 +1,52 @@
+//    Author: Deepkumar Patel
+//    Technical Test by
+//    DEVLIFT MEDIA
+//    [E-commerce product page -> Reference from Dribble]
+
+//  Font File 
+@import "./modules/font.scss";
+
+// Colors File
+@import "./modules/color.scss";
+
+// Navbar SCSS File
+@import "./modules/navBar.scss";
+
+// Product Container
+@import "./modules/productContainer.scss";
+
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+    font-size: 16px;
+    position: relative;
+}
+
+.body-padding{
+    padding: 0 6.25em
+}
+
+// Background Gray Circle
+.bg-gray-circle{
+    width: 1000px;
+    height: 1000px;
+    background: $primary-font-color;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -25%;
+    left: -25%;
+
+    z-index: -99;
+    opacity: 0.045;
+}
+
+// Media Queries
+@media only screen and (max-width: 768px){
+    .body-padding{
+        padding: 0 1em;
+    }
+}
