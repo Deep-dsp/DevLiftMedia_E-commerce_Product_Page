@@ -23,7 +23,7 @@ Front-End challenge to build single product page
 This is a basic HTML with Flex box and Grid layout. Some SASS, transitions and JavaScript function. If you don't know what any of these are, start here: www.mozilla.com
 
 ## References
-Icon from [www.flaticon.com](www.flaticon.com)
+Icon from [www.icons8.com/](https://icons8.com/)
 
 ## Author
 Deepkumar Patel
